@@ -11,23 +11,23 @@
    ========================================================================== */
 
 @mixin lightMode {
-    --bg_color: #eee;
+    --bg_color: #f7E4EE;
     --header_bg: #fafafa;
     --content_bg: #fff;
     --archive_font: #000;
-    --archive_title: #46a891;
-    --archive_title_hover: #87CDBD;
-    --name_font: #FFAA00;
-    --job_font: #003845;
-    --nav_font: #8d7edc;
-    --nav_font_hover: #D4CEF2;
+    --archive_title: #E0A6C5;
+    --archive_title_hover: #FFBEE0;
+    --name_font: #380019;
+    --job_font: #9E8590;
+    --nav_font: #380019;
+    --nav_font_hover: #E0A6C5;
     --shadow_color: rgba(160, 160, 160, 0.05);
-    --post_title: #003845;
-    --post_date: #003845;
-    --post_text: #4c4c4c;
+    --post_title: #380019;
+    --post_date: #9E8590;
+    --post_text: #380019;
     --post_h3: #4c4c4c;
-    --post_link: #46a891;
-    --post_link_hover: #87CDBD;
+    --post_link: #E0A6C5;
+    --post_link_hover: #FFBEE0;
     --inlinecode_text: #FFAA00;
     --blockquote: #333;
     --footer_font: #858585;
@@ -150,7 +150,7 @@ img {
     @include breakpoint(medium) {
         margin-left: auto;
         margin-right: auto;
-        max-width: 960px;
+        max-width: 1260px;
         padding-top: 2.5rem;
     }
 
@@ -242,8 +242,9 @@ img {
     }
 
     @include breakpoint(medium) {
-        max-width: 30rem;
         margin-top: 5rem;
+        margin-left: 1rem;
+        margin-right: 20rem;
     }
 
     @include mobile-only {
@@ -270,7 +271,7 @@ img {
 
 .archive_type {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 1rem;
 }
 
@@ -355,7 +356,7 @@ img {
     margin-top: .1rem;
     color: var(--job_font);
     font-size: 0.75em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .theme_changer {   
@@ -504,8 +505,9 @@ img {
     color: var(--post_text);
 
     @include breakpoint(medium) {
-        max-width: 33rem;
         margin-top: 5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     @include mobile-only {
@@ -519,7 +521,7 @@ img {
     color: var(--post_title);
     font-size: 1.8rem;
     line-height: 2.2rem;
-    font-weight: 700;
+    font-weight: 500;
 
     @include mobile-only {
         text-align: center;
@@ -559,7 +561,7 @@ img {
 
 .post_content {
     font-size: 0.95rem;
-    line-height: 1.5rem;
+    line-height: 2.0rem;
     color: var(--post_text);
 
     h1,
