@@ -12,6 +12,10 @@
     <span class="header_job">{{ site.user.job }}</span>
     <span class="header_mes">{{ site.user.message }}</span>
 
+    <a class="rss_button" href="{{ site.baseurl }}/feed.xml">
+      <img src="{{ site.rss.pic }}" alt="{{ site.rss.picAlt }}">
+    </a>
+
     <nav class="nav">
       {% if site.user.aboutme %}
       <ul class="nav_list">

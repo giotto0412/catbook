@@ -22,9 +22,17 @@ cusdis:
 user:
   name: HotMoo
   pic: /assets/img/avator.jpg
-  picAlt: "catbook"
+  picAlt: "avator"
   job: Odds & Ends
-  # aboutme: true # comment this out if you don't need the 'about' page.
+  aboutme: false # comment this out if you don't need the 'about' page.
+
+rss:
+  pic: /assets/img/rss.png
+  picAlt: "rss"
+
+corner:
+  pic: /assets/img/corner.png
+  picAlt: "corner"
 
 exclude:
   - README.md
